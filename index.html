@@ -15,12 +15,26 @@
 <body>
     <header class="container text-center mt-5">
         <h1>Phone Hunter </h1>
-
     </header>
     <main>
+        <!-- Input search -->
+        <section class="container w-50 mx-auto pb-5">
+            <div class="input-group mb-3">
+                <input id="search-field" type="text" class="form-control" placeholder="Search your favorite phones"
+                    aria-label="Recipient's username" aria-describedby="button-addon2">
+                <button onclick="searchPhoneData()" class="btn btn-outline-secondary" type="button"
+                    id="button-addon2">Button</button>
+            </div>
+        </section>
+
+        <!-- Product details -->
         <section class="container"></section>
-        <section class="container"></section>
-        <section class="container"></section>
+
+        <!-- Search results -->
+        <section class="container">
+            <div id="all-phone" class="row row-cols-1 row-cols-md-3 g-4">
+            </div>
+        </section>
     </main>
 
 
