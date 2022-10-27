@@ -6,9 +6,17 @@
 
 .card-body p {
     color: dimgray;
+    margin: 0px;
+    padding: 5px;
+    border-bottom: 1px dashed dimgray;
 }
 
 .card img {
     height: 345px;
     padding: 20px;
+}
+
+#btn {
+    width: 50%;
+    margin: 20px;
 }
